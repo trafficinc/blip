@@ -1,4 +1,4 @@
-# blip
+# Blip, Flat-File, Simple Blog Engine
 Blip, is a really simple, no-database, flat-file blog engine<br /><br />
 
 To Use:<br />
