@@ -13,6 +13,6 @@ Code is easily editable to create more features or change things.<br />
 
 Potential issues: .htaccess file settings may need to be tweaked according to your Apache web server set-up, NGINX should work with some extra adjustments.<br /><br />
 
-Tested on PHP 7.3 +, Apache Web Server, should work on shared hosting and is low resources.
+Tested on <strong>PHP 7.3 +</strong> but may work down to 7.x (haven't tested), <strong>Apache</strong> Web Server, should work on <strong>shared hosting</strong>, and is low resources.
 
 > Inspiration for this project just came as a need to get a quick blog up on a website without setting up databases, and bloat. You are welcomed to contribute or fix bugs! Thanks
