@@ -1,0 +1,6 @@
+RewriteEngine On
+RewriteCond %{QUERY_STRING} ^$
+RewriteRule ^article/([^/]+)$ post.php?id=$1 [L,QSA]
+
+php_value auto_prepend_file './bootstrap.php'
+
