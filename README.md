@@ -4,8 +4,9 @@ Blip, is a really simple, no-database, flat-file blog engine<br /><br />
 To Use:<br />
 1.) Upload this "blog" folder to the root of your website.<br />
 2.) Go into the helper.php file and update the SITEURL with your site url including the "blog" folder, so http/\/www/\/.yoursite.com/blog/ .<br />
-3.) Add Blog posts to the "posts" folder as .txt files, see examples.<br />
-4.) Thats it<br /><br />
+3.) Change `file.htaccess` file to `.htaccess` <br />
+4.) Add Blog posts to the "posts" folder as .txt files, see examples.<br />
+<br />
 
 Customization: to "template" the blog to make it look like the website, just take your current site, view source, copy and paste it into the HTML templates in src/Views/Layout.php (parent template) & src/Views/Blog/Listing.php (main blog page) and Post.php (blog post page) and use the functions that are already there, no special templating kowledge.<br />
 
